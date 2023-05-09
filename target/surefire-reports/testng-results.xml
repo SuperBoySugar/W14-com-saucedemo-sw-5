@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="3383" started-at="2023-05-06T23:55:20 BST" finished-at="2023-05-06T23:55:24 BST">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.verifyThatSixProductsAreDisplayedOnPage(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="verifyThatSixProductsAreDisplayedOnPage" class="saucedemo.com.testsuite.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginTest.userSholdLoginSuccessfullyWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="userSholdLoginSuccessfullyWithValidCredentials" class="saucedemo.com.testsuite.LoginTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Command line test" duration-ms="3383" started-at="2023-05-06T23:55:20 BST" finished-at="2023-05-06T23:55:24 BST">
+      <class name="saucedemo.com.testsuite.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="setUp" is-config="true" duration-ms="1882" started-at="2023-05-06T23:55:20 BST" finished-at="2023-05-06T23:55:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="inIt" is-config="true" duration-ms="10" started-at="2023-05-06T23:55:22 BST" finished-at="2023-05-06T23:55:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userSholdLoginSuccessfullyWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="userSholdLoginSuccessfullyWithValidCredentials" duration-ms="182" started-at="2023-05-06T23:55:22 BST" data-provider="credentials" finished-at="2023-05-06T23:55:22 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSholdLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-05-06T23:55:22 BST" finished-at="2023-05-06T23:55:22 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="setUp" is-config="true" duration-ms="997" started-at="2023-05-06T23:55:22 BST" finished-at="2023-05-06T23:55:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="inIt" is-config="true" duration-ms="1" started-at="2023-05-06T23:55:23 BST" finished-at="2023-05-06T23:55:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThatSixProductsAreDisplayedOnPage(java.lang.String,java.lang.String)[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="verifyThatSixProductsAreDisplayedOnPage" duration-ms="146" started-at="2023-05-06T23:55:23 BST" data-provider="credentials" finished-at="2023-05-06T23:55:24 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyThatSixProductsAreDisplayedOnPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:saucedemo.com.testsuite.LoginTest@7a9273a8]" name="tearDown" is-config="true" duration-ms="0" started-at="2023-05-06T23:55:24 BST" finished-at="2023-05-06T23:55:24 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- saucedemo.com.testsuite.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

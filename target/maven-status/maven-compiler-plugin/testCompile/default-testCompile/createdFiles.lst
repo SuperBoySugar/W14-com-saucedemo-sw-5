@@ -1,0 +1,3 @@
+saucedemo\com\testbase\BaseTest.class
+resources\testdata\TestData.class
+saucedemo\com\testsuite\LoginTest.class
